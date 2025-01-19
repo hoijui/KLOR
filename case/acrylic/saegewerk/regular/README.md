@@ -3,8 +3,8 @@
 You can choose a bottom which supports the SplitKB tenting puck or a top which features the KLOR logotype. The rest of the layers are identical.\
 The thickness of the acrylic should be 3mm.\
 
-![konrad](/case/docs/images/saegewerk_acryl.png)
-![konrad puck](/case/docs/images/saegewerk_acryl_puck.png)
+![konrad](../../../../case/docs/images/saegewerk_acryl.png)
+![konrad puck](../../../../case/docs/images/saegewerk_acryl_puck.png)
 
 You should choose a dark smokey acrylic glass like 7C83 from Plexiglass to hide the OLED, while you can still see it's light shine through the top layer.\
 The middle layers got two cuts, which should make it possible to use less acrylic and make it a lot cheaper to cut.\

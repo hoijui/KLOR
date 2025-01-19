@@ -5,5 +5,5 @@ If you want to use the KLOR wireless (through ZMK) you need to choose the blueto
 > **Note**
 > You need a switchplate, no matter what case you choose.
 
-[<img alt="yubitsume" width="49%" src="/case/docs/images/yubitsume_acryl.png" title="yubitsume" />](/case/acrylic/yubitsume/regular/)
-[<img alt="yubitsume bluetooth" width="49%" src="/case/docs/images/yubitsume_acryl_ble.png" title="yubitsume bluetooth" />](/case/acrylic/yubitsume/bluetooth/)
+[<img alt="yubitsume" width="49%" src="/case/docs/images/yubitsume_acryl.png" title="yubitsume" />](../../../case/acrylic/yubitsume/regular/)
+[<img alt="yubitsume bluetooth" width="49%" src="/case/docs/images/yubitsume_acryl_ble.png" title="yubitsume bluetooth" />](../../../case/acrylic/yubitsume/bluetooth/)

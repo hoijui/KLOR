@@ -12,23 +12,23 @@ KLOR is a 36-42 key column-staggered split keyboard. It supports a per-key RGB m
 
 ## LAYOUTS
 
-![KLOR layouts](/docs/images/klor-layouts.svg)
+![KLOR layouts](docs/images/klor-layouts.svg)
 
 ***
 
 ## IMAGES
 
-![KLOR polydactyl](/docs/images/KLOR_polydactyl_DES01.jpg)
+![KLOR polydactyl](docs/images/KLOR_polydactyl_DES01.jpg)
 
-![KLOR polydactyl](/docs/images/KLOR_polydactyl_DES02.jpg)
+![KLOR polydactyl](docs/images/KLOR_polydactyl_DES02.jpg)
 
 ▲ KLOR polydactyl with 3DP case and DES keycaps.
 
 ***
 
-![KLOR saegewerk](/docs/images/KLOR_saegewerk_GRID01.jpg)
+![KLOR saegewerk](docs/images/KLOR_saegewerk_GRID01.jpg)
 
-![KLOR saegewerk](/docs/images/KLOR_saegewerk_GRID02.jpg)
+![KLOR saegewerk](docs/images/KLOR_saegewerk_GRID02.jpg)
 
 ▲ KLOR saegewerk with stacked acrylic case and GRID keycaps.
 
@@ -36,13 +36,13 @@ KLOR is a 36-42 key column-staggered split keyboard. It supports a per-key RGB m
 
 ## PCB 
 
-[Here](/PCB/) you can find the KiCad files and Gerbers for the KLOR. 
+[Here](PCB/) you can find the KiCad files and Gerbers for the KLOR. 
 
 ***
 
 ## CASE
 
-[Here](/case/) are the case files for the KLOR. There is an acrylic case and a 3D printed case (which uses acrylic too) for every layout.
+[Here](case/) are the case files for the KLOR. There is an acrylic case and a 3D printed case (which uses acrylic too) for every layout.
 
 ***
 
@@ -54,17 +54,17 @@ In every case directory you'll find the matching switchplates as **.dxf**, **.sv
 
 ## KNOB
 
-You can use pretty much any knob, which works with the EC11 encoder, but [here](/knob/) you can find one, I designed for the KLOR.
+You can use pretty much any knob, which works with the EC11 encoder, but [here](knob/) you can find one, I designed for the KLOR.
 
 ***
 
 ## BUILD GUIDE
 
 Here you can find the build guides for the KLOR.\
-[KLOR build guide 3DP case](/docs/buildguide_3DP.md) (QMK)\
-[KLOR build guide stacked acrylic case](/docs/buildguide_acrylic.md) (QMK)\
-[KLOR BLE build guide 3DP case](/docs/buildguide_3DP_ble.md) (ZMK)\
-[KLOR BLE build guide stacked acrylic case](/docs/buildguide_acrylic_ble.md) (ZMK)
+[KLOR build guide 3DP case](docs/buildguide_3DP.md) (QMK)\
+[KLOR build guide stacked acrylic case](docs/buildguide_acrylic.md) (QMK)\
+[KLOR BLE build guide 3DP case](docs/buildguide_3DP_ble.md) (ZMK)\
+[KLOR BLE build guide stacked acrylic case](docs/buildguide_acrylic_ble.md) (ZMK)
 
 ***
 

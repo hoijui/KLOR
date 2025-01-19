@@ -5,5 +5,5 @@ If you want to use the KLOR wireless (through ZMK) you need to choose the blueto
 > **Note**
 > You need a switchplate and the acrylic parts, no matter what case you choose.
 
-[<img alt="konrad" width="49%" src="/case/docs/images/konrad_3dp.png" title="konrad" />](/case/3DP/konrad/regular/)
-[<img alt="konrad bluetooth" width="49%" src="/case/docs/images/konrad_3dp_ble.png" title="konrad bluetooth" />](/case/3DP/konrad/bluetooth/)
+[<img alt="konrad" width="49%" src="/case/docs/images/konrad_3dp.png" title="konrad" />](../../../case/3DP/konrad/regular/)
+[<img alt="konrad bluetooth" width="49%" src="/case/docs/images/konrad_3dp_ble.png" title="konrad bluetooth" />](../../../case/3DP/konrad/bluetooth/)

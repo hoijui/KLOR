@@ -5,5 +5,5 @@ If you want to use the KLOR wireless (through ZMK) you need to choose the blueto
 > **Note**
 > You need a switchplate, no matter what case you choose.
 
-[<img alt="polydactyl" width="49%" src="/case/docs/images/polydactyl_acryl.png" title="polydactyl" />](/case/acrylic/polydactyl/regular/)
-[<img alt="polydactyl bluetooth" width="49%" src="/case/docs/images/polydactyl_acryl_ble.png" title="polydactyl bluetooth" />](/case/acrylic/polydactyl/bluetooth/)
+[<img alt="polydactyl" width="49%" src="/case/docs/images/polydactyl_acryl.png" title="polydactyl" />](../../../case/acrylic/polydactyl/regular/)
+[<img alt="polydactyl bluetooth" width="49%" src="/case/docs/images/polydactyl_acryl_ble.png" title="polydactyl bluetooth" />](../../../case/acrylic/polydactyl/bluetooth/)

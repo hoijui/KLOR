@@ -6,7 +6,7 @@
 
 | Part name     | Count | Remarks | 
 | :------------ | :---: | :------ |
-| KLOR PCB      | 02 | You can find the files for it [here](/PCB/) |
+| KLOR PCB      | 02 | You can find the files for it [here](../PCB/) |
 | ProMicro      | 02 | Alternatively, you can use another controller with a similar pinout like the Elite-C, Puchi-C, KB2040 dda. |
 | MX Key switch | 42 | 40 switches for Konrad / 38 switches for Yubitsume / 36 switches for Saegewerk |
 | switch socket | 42 | 40 sockets for Konrad / 38 sockets for Yubitsume / 36 sockets for Saegewerk |
@@ -17,7 +17,7 @@
 | TRRS jack     | 02 | MJ-4PP-9 or PJ320A |
 | TRRS cable    | 01 | Alternatively, you can use a TRS cable for [half-duplex](https://github.com/qmk/qmk_firmware/blob/master/docs/serial_driver.md#usart-half-duplex)|
 | EC11 encoder  | 02 | You can use any EC11 encoder, but it will look better if you use a short one, like the EC11N1524402 |
-| encoder knob  | 02 | The design works best with a 2,2cm encoder knob. I'd recommend kilo international knobs with a number starting with 90. You could also use the [knob](/knob/) I designed for the KLOR, based on the kilo knob. 
+| encoder knob  | 02 | The design works best with a 2,2cm encoder knob. I'd recommend kilo international knobs with a number starting with 90. You could also use the [knob](../knob/) I designed for the KLOR, based on the kilo knob. 
 | USB cable     | 01 | For connecting the keyboard to your PC |
 
 
@@ -39,7 +39,7 @@
 
 | Part name              | Count | Remarks | 
 | :--------------------- | :---: | :------ |
-| 3D printed case        | 02 | Find the case files [here](/case/3DP) |
+| 3D printed case        | 02 | Find the case files [here](../case/3DP) |
 | acrylic parts          | 02 | Three parts and one ring per side |
 | switch plate           | 02 | 1.5mm switch plate |
 | 7mm M2 standoffs       | 16 | round |
@@ -51,7 +51,7 @@
 
 Here is an overview of where and on which side each component needs to be soldered (click on the image to see a larger version).
 
-![KLOR solder guide](/docs/images/solderguide_3DP.png)
+![KLOR solder guide](../docs/images/solderguide_3DP.png)
 
 To see what component needs to sit where you can take a look at the [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/GEIGEIGEIST/KLOR/blob/main/docs/klor_rev1-3_ibom.html).
 
@@ -67,12 +67,12 @@ Begin with the flat components and progress to the higher ones, ending with the 
 
 ## BREAK OFF PARTS (optional)
 
-If you choose a layout [other than](/README.md#layouts) Polydactyl you should remove the unnecessary parts. Use a flush cutter to snip through the support sections. You can also use a boxcutter to carve in grooves, which makes it easier to break on the right spot. 
+If you choose a layout [other than](../README.md#layouts) Polydactyl you should remove the unnecessary parts. Use a flush cutter to snip through the support sections. You can also use a boxcutter to carve in grooves, which makes it easier to break on the right spot. 
 
 > **Warning**
 > Be very careful with this step, since there is a risk to break the PCB. Probably it would be best to begin with this step, to avoid losing already soldered parts.
 
-![break off parts](/docs/images/buildguide/breakoff.jpg)
+![break off parts](../docs/images/buildguide/breakoff.jpg)
 
 
 You can use a file to smooth out the edges, but you should wear a mask while doing this since the FR4 dust is considered to be toxic.
@@ -89,12 +89,12 @@ Unlike most other boards here the microcontroller needs to be mounted on the bot
 Feel free to use the included header pins, but it's highly recommended to use MillMax low-profile sockets.\
 Place the sockets in the marked spots on the bottom side of the PCB.
 
-![MCU sockets](/docs/images/buildguide/MCU_sockets.jpg)
+![MCU sockets](../docs/images/buildguide/MCU_sockets.jpg)
 
 
 You can keep them in place by using masking tape.
 
-![sockets taped](/docs/images/buildguide/MCU_tape.jpg)
+![sockets taped](../docs/images/buildguide/MCU_tape.jpg)
 
 
 Then you can flip the board to solder in the sockets from the top.
@@ -103,13 +103,13 @@ Flip it again and insert the pins into the sockets.
 > **Note**
 > Use tweezers to insert them. Don't apply too much force, you will feel them snap in. After that, you can carefully apply some pressure, using a flat object to make sure they're fully seated. 
 
-![MCU pins](/docs/images/buildguide/MCU_pins.jpg)
+![MCU pins](../docs/images/buildguide/MCU_pins.jpg)
 
 
 Now place your microcontroller on the pins (components facing the PCB) and solder it to them.\
 You can use flush cutters to trim the header pins.
 
-![MCU solder](/docs/images/buildguide/MCU_solder.jpg)
+![MCU solder](../docs/images/buildguide/MCU_solder.jpg)
 
 
 > **Warning**
@@ -123,23 +123,23 @@ You can use flush cutters to trim the header pins.
 > **Note**
 > If you use a layout with three thumbs, instead of four, you need to bridge the 'lost thumb?' jumper below the TRRS sockets on the primary and secondary PCB, since the led chain lost its beginning. 
 
-![Lost thumb jumper](/docs/images/buildguide/lostthumb.png)
+![Lost thumb jumper](../docs/images/buildguide/lostthumb.png)
 
 
 LEDs are very heat sensitive. So it's a good idea to solder the pads on the PCB bottom first and then insert the LED.
 
-![LED solder pads](/docs/images/buildguide/LED_solder_pads.jpg)
+![LED solder pads](../docs/images/buildguide/LED_solder_pads.jpg)
 
 
 While the bottom of the PCB is facing you, insert the LEDs in the holes. The lens should face the table.
 
-![LED in place](/docs/images/buildguide/LED_in_place.jpg)
+![LED in place](../docs/images/buildguide/LED_in_place.jpg)
 
 
 This image depicts the correct orientation.\
 The L-shaped pad on the LED needs to be connected to the square-marked pad.
 
-![LED orientation1](/docs/images/buildguide/LEDorientation.svg)
+![LED orientation1](../docs/images/buildguide/LEDorientation.svg)
 
 
 > **Note**
@@ -150,17 +150,17 @@ The L-shaped pad on the LED needs to be connected to the square-marked pad.
 
 Make sure the solder always builds a strong connection between the pad on the LED and the pad on the PCB. 
 
-![LED connection](/docs/images/buildguide/LED_soldered.jpg)
+![LED connection](../docs/images/buildguide/LED_soldered.jpg)
 
 
 The advantage of soldering in the microcontroller first is that you can occasionally check if all the LEDs work before continuing. 
 
-![KLOR LED working](/docs/images/buildguide/LED_closeup.jpg)
+![KLOR LED working](../docs/images/buildguide/LED_closeup.jpg)
 
 
 This graphic shows the order in which the LEDs are chained together.
 
-![KLOR LED order](/docs/images/KLOR_LEDorder.png)
+![KLOR LED order](../docs/images/KLOR_LEDorder.png)
 
 
 ***
@@ -179,12 +179,12 @@ The diodes need to be soldered on the bottom of the PCB. Pay attention to their 
 
 Apply a small amount of solder on one pad.
 
-![Solder on one pad](/docs/images/buildguide/diode_solder_pad.jpg)
+![Solder on one pad](../docs/images/buildguide/diode_solder_pad.jpg)
 
 
 Then use tweezers to place the diode on the pads and reheat the solder to secure the diode.
 
-![Solder diode](/docs/images/buildguide/diode_in_place.jpg)
+![Solder diode](../docs/images/buildguide/diode_in_place.jpg)
 
 
 Now you can solder the second pad.
@@ -195,13 +195,13 @@ Now you can solder the second pad.
 
 Here you can apply the same technique as used for the diodes: Apply some solder on one of the pads first.
 
-![switch sockets pad](/docs/images/buildguide/switch_pad.jpg)
+![switch sockets pad](../docs/images/buildguide/switch_pad.jpg)
 
 
 Then place the switch socket in the silk screen markings and reheat the solder. Apply some pressure with a pair of tweezers to make sure the socket is fully seated.\
 Now solder the second pad.
 
-![switch socket soldered](/docs/images/buildguide/switchsocket.jpg)
+![switch socket soldered](../docs/images/buildguide/switchsocket.jpg)
 
 
 ***
@@ -210,7 +210,7 @@ Now solder the second pad.
 
 The reset switches are a bit fiddly to solder. It helps to apply a really thin film of solder to the outer pads first. Then hold the switch in place with tweezers and solder the big pads on the left and right of the switch (they do not fulfill any electrical purpose, but serve to hold the switches in place). If the switch is seated correctly flip the PCB and solder the pads in the middle from below.
 
-![reset switch](/docs/images/buildguide/reset_switch.jpg)
+![reset switch](../docs/images/buildguide/reset_switch.jpg)
 
 
 ***
@@ -220,7 +220,7 @@ The reset switches are a bit fiddly to solder. It helps to apply a really thin f
 Install the TRRS jack on the top side of the PCB. The place where you should insert it is marked with a white line.
 You may want to use some masking tape to hold it in place since you need to solder it on the bottom.
 
-![TRRS jack soldered](/docs/images/buildguide/TRRS.jpg)
+![TRRS jack soldered](../docs/images/buildguide/TRRS.jpg)
 
 
 ***
@@ -233,22 +233,22 @@ You may want to use some masking tape to hold it in place since you need to sold
 
 Apply some solder to the jumpers on the top to bridge them.
 
-![haptic feedback Jumper](/docs/images/buildguide/haptic_jumper.jpg)
+![haptic feedback Jumper](../docs/images/buildguide/haptic_jumper.jpg)
 
 
 Insert the module from below with the motor facing upwards. Then insert the pin headers from below.
 
-![haptic feedback pins](/docs/images/buildguide/haptic_pins.jpg)
+![haptic feedback pins](../docs/images/buildguide/haptic_pins.jpg)
 
 
 Now you can solder the pins and use a flush cutter to snap off the excess. Remember to hold your hand above them or wear eye protection while doing so.
 
-![haptic feedback snap of pins](/docs/images/buildguide/haptic_snap.jpg)
+![haptic feedback snap of pins](../docs/images/buildguide/haptic_snap.jpg)
 
 
 You can also use a screw and a nut to stabilize the module further. But this step is optional.
 
-![haptic feedback solder](/docs/images/buildguide/haptic_solder.jpg)
+![haptic feedback solder](../docs/images/buildguide/haptic_solder.jpg)
 
 
 ***
@@ -260,7 +260,7 @@ You can also use a screw and a nut to stabilize the module further. But this ste
 
 Soldering the speaker is pretty simple. Apply a tiny bit of solder on one of the pads, use tweezers to hold the speaker in place and reheat the solder. After that apply solder to the other pad.
 
-![speaker](/docs/images/buildguide/speaker.jpg)
+![speaker](../docs/images/buildguide/speaker.jpg)
 
 
 ***
@@ -277,7 +277,7 @@ TBA
 
 Mount the rotary encoder on the top side of the PCB. It should click into place maybe requiring a firm press. If it's seated correctly solder the pins on the bottom.
 
-![encoder](/docs/images/buildguide/encoder.jpg)
+![encoder](../docs/images/buildguide/encoder.jpg)
 
 
 ***
@@ -290,7 +290,7 @@ Mount the rotary encoder on the top side of the PCB. It should click into place 
 
 First step should be to bridge the jumpers on the top of the PCB next to the OLED.
 
-![OLED bridge jumpers](/docs/images/buildguide/OLED_bridge.jpg)
+![OLED bridge jumpers](../docs/images/buildguide/OLED_bridge.jpg)
 
 
 > **Note**
@@ -299,12 +299,12 @@ First step should be to bridge the jumpers on the top of the PCB next to the OLE
 
 You need to remove the plastic part, which is usually attached to the OLED, from the headers, while keeping the pins. For me, the easiest way is to use flush cutters to snap the plastic in half, which allows you to remove the parts easily. You probably need to bend the pins back in place after doing this.
 
-![OLED pin split](/docs/images/buildguide/OLED_split.jpg)
+![OLED pin split](../docs/images/buildguide/OLED_split.jpg)
 
 
 You also need to cover the back of the OLED with electrical tape, to prevent shorts with the microcontroller pins. Especially the top part with the copper traces is important.
 
-![OLED tape on bottom](/docs/images/buildguide/OLED_tape_bottom.jpg)
+![OLED tape on bottom](../docs/images/buildguide/OLED_tape_bottom.jpg)
 
 
 Insert the OLED on the top of the PCB. Make sure it sits as flush with the PCB as possible. Maybe hold it in place with some masking tape.
@@ -315,23 +315,23 @@ Insert the OLED on the top of the PCB. Make sure it sits as flush with the PCB a
 
 Solder the OLED into place.
 
-![OLED soldering](/docs/images/buildguide/OLED_solder.jpg)
+![OLED soldering](../docs/images/buildguide/OLED_solder.jpg)
 
 
 Now use flush cutters to trim the top and bottom pins. Especially the top pins should be as short as possible to avoid interference with the switch plate.
 
-![OLED flush cutter](/docs/images/buildguide/OLED_cutoff.jpg)
+![OLED flush cutter](../docs/images/buildguide/OLED_cutoff.jpg)
 
 
 If you use a metal switch plate consider covering them with electrical tape to prevent shorts.
 
-![OLED tape on top](/docs/images/buildguide/OLED_tape_top.jpg)
+![OLED tape on top](../docs/images/buildguide/OLED_tape_top.jpg)
 
 
 > **Note**
 > If you need to desolder the OLED or fix its placement just apply a lot of solder to the four pins to connect them. This way you can heat all four pins at once and remove it by gently applying force to the bottom edge of the OLED module. Be really careful not to use too much pressure, since you could rip off a pad or destroy the OLED (which happens pretty fast).
 
-![OLED desolder](/docs/images/buildguide/OLED_fix.jpg)
+![OLED desolder](../docs/images/buildguide/OLED_fix.jpg)
 
 
 ***
@@ -340,7 +340,7 @@ If you use a metal switch plate consider covering them with electrical tape to p
 
 This is what your finished PCB probably will look like. You can use an old toothbrush and some isopropanol to clean it from residues. 
 
-![Finished PCB](/docs/images/buildguide/PCB_finished.jpg)
+![Finished PCB](../docs/images/buildguide/PCB_finished.jpg)
 
 
 ***
@@ -362,7 +362,7 @@ Open [QMK Toolbox](https://github.com/qmk/qmk_toolbox) and locate the **klor_def
 Connect the ProMicro/keyboard and press the reset button (or connect the RST and GND pins on the ProMicro). QMK toolbox should show a connected device.\
 Press **flash** in QMK toolbox to flash the firmware on your microcontroller.
 
-![QMK toolbox](/docs/images/buildguide/qmk_toolbox.jpg)
+![QMK toolbox](../docs/images/buildguide/qmk_toolbox.jpg)
 
 
 
@@ -388,32 +388,32 @@ Copy the **klor_rp2040_default.uf2** there to flash it.
 
 Here you can find the STL files for the case. I got them printed in PA12-HP Nylon (Multi Jet Fusion printing) by [JLCPCB](https://jlcpcb.com/3d-printing), which seemed pretty reasonably priced, for the level of detail.
 
-![3DP case](/docs/images/buildguide/3DPcase.jpg)
+![3DP case](../docs/images/buildguide/3DPcase.jpg)
 
 
 Insert the PCB first. Starting with inserting the microcontroller in the cutout at the top.
 
-![3DP case insert MCU](/docs/images/buildguide/3DPcase_MCU.jpg)
+![3DP case insert MCU](../docs/images/buildguide/3DPcase_MCU.jpg)
 
 
 Then lower it into the case. To make it fit, you probably need to bend a bit the part of the case containing the holes for reset switch and TRRS jack.
 
-![3DP case bend](/docs/images/buildguide/3DPcase_finger.jpg)
+![3DP case bend](../docs/images/buildguide/3DPcase_finger.jpg)
 
 
 The TRRS jack should snap in the provided hole.
 
-![3DP case trrs](/docs/images/buildguide/3DPcase_trrs.jpg)
+![3DP case trrs](../docs/images/buildguide/3DPcase_trrs.jpg)
 
 
 Insert the standoffs in the PCB and screw them into the bottom of the case using the countersunk screws.
 
-![3DP case standoffs](/docs/images/buildguide/3DPcase_standoffs.jpg)
+![3DP case standoffs](../docs/images/buildguide/3DPcase_standoffs.jpg)
 
 
 Now you can insert the plate and screw it to the case using the center standoff. 
 
-![3DP case plate](/docs/images/buildguide/3DPcase_plate.jpg)
+![3DP case plate](../docs/images/buildguide/3DPcase_plate.jpg)
 
 
 ***
@@ -427,7 +427,7 @@ If you choose a case with the KLOR logotype you can emphasize it by retracing it
 
 Screw the acrylic parts on top of the plate.
 
-![acrylic parts on top of plate](/docs/images/buildguide/3DPcase_acrylic.jpg)
+![acrylic parts on top of plate](../docs/images/buildguide/3DPcase_acrylic.jpg)
 
 ***
 
@@ -435,7 +435,7 @@ Screw the acrylic parts on top of the plate.
 
 The design works best with 23mm (0.9") diameter encoder knobs. My recommendation would be a knob from kilo international with a number beginning with 90 (which means a 0.9" diameter) like the OEDNI-90-4-7 shown here.
 
-![OEDNI-90-4-7](/docs/images/buildguide/knob.jpg)
+![OEDNI-90-4-7](../docs/images/buildguide/knob.jpg)
 
 ***
 
@@ -443,4 +443,4 @@ The design works best with 23mm (0.9") diameter encoder knobs. My recommendation
 
 This is how the final keyboard will look like. In this picture, I use RAMA Grid keycaps in NOCT.
 
-![final KLOR build](/docs/images/buildguide/3DPcase_keycaps.jpg)
+![final KLOR build](../docs/images/buildguide/3DPcase_keycaps.jpg)

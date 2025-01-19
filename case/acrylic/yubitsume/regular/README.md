@@ -1,7 +1,7 @@
 # KLOR YUBITSUME STACKED ACRYLIC CASE
 
-![konrad](/case/docs/images/yubitsume_acryl.png)
-![konrad puck](/case/docs/images/yubitsume_acryl_puck.png)
+![konrad](../../../../case/docs/images/yubitsume_acryl.png)
+![konrad puck](../../../../case/docs/images/yubitsume_acryl_puck.png)
 The thickness of the acrylic should be 3mm.\
 
 You should choose a dark smokey acrylic glass like 7C83 from Plexiglass to hide the OLED, while you can still see it's light shine through the top layer.\
